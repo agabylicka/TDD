@@ -1,16 +1,16 @@
 
 public interface ITDD {
 
-    public boolean hasGoodLength(String password);
+    boolean hasGoodLength(String password);
 
 
-    public boolean hasNoWhiteSpaces(String password);
+    boolean hasNoWhiteSpaces(String password);
 
-    public boolean hasNoRepetitions(String password);
+    boolean hasNoRepetitions(String password);
 
-    public boolean hasNumbers(String password);
+    boolean hasNumbers(String password);
 
-    public boolean hasSpecialCharacter(String password);
+    boolean hasSpecialCharacter(String password);
 }
 
 
